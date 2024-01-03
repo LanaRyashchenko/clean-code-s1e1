@@ -43,7 +43,7 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -54,7 +54,7 @@
 
 .task,
 .button {
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -156,14 +156,14 @@ input#new-task {
 
 /* Edit Task */
 .list-item > input[type=text] {
-  display:none
+  display: none
 }
 
 .add-section__editMode > input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .add-section__editMode > label {
-  display:none;
+  display: none;
 }
