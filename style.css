@@ -119,22 +119,26 @@ input#new-task {
   align-items: center;
 }
 
-.list-item > * {
+.list-item
+> * {
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.list-item
+> input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.list-item > label {
+.list-item
+> label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item > input[type="text"] {
+.list-item
+> input[type="text"] {
   width: 226px;
 }
 
@@ -155,15 +159,18 @@ input#new-task {
 }
 
 /* Edit Task */
-.list-item > input[type=text] {
+.list-item
+> input[type=text] {
   display: none;
 }
 
-.add-section__editMode > input[type=text] {
+.add-section__editMode
+> input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.add-section__editMode > label {
+.add-section__editMode
+> label {
   display: none;
 }
