@@ -12,23 +12,23 @@
         charset="utf-8">
   </head>
   <body class="page">
-    <div class="header">
+    <header class="header">
       <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix" class="header-img">
         <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
+    </header>
+    <h1 class="hide">Todo App</h1>
+    <main class="main-part">
 
-    <div class="main-part">
-
-      <div class="add-section">
+      <section class="add-section">
         <label for="new-task">Add Item</label>
           <div class="add-section__wrapper">
             <input id="new-task" class="task" type="text">
             <button class="button">Add</button>
           </div>
-      </div>
+      </section>
 
-      <div class="todo-section">
-        <h3 class="todo-section__title title">Todo</h3>
+      <section class="todo-section">
+        <h2 class="todo-section__title title">Todo</h2>
         <ul class="add-section__list list">
           <li class="todo-section__item list-item"><input type="checkbox">
             <label class="task">Pay Bills</label>
@@ -43,10 +43,10 @@
             <button class="delete button"><img src="./remove.svg"></button>
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="comleted-section">
-        <h3 class="comleted-section__title title">Completed</h3>
+      <section class="comleted-section">
+        <h2 class="comleted-section__title title">Completed</h2>
         <ul class="comleted-section__list list">
           <li class="list-item"><input type="checkbox" checked>
             <label class="task">See the Doctor</label>
@@ -55,8 +55,10 @@
             <button class="delete button"><img src="./remove.svg"></button>
           </li>
         </ul>
-    </div>
-    </div>
+      </section>
+
+      <footer></footer>
+    </main>
 
     <script src="app.js"></script>
 

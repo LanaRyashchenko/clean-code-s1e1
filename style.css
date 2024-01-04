@@ -32,6 +32,9 @@
   margin: 0 auto 0;
 }
 
+.hide {
+    display: none;
+}
 .task {
   width: 56%;
   display: inline-block;
